@@ -13,9 +13,12 @@
 	<!-- this links the css stylesheet and to the html document -->
 	<link link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
-<!-- this links the js to the html document  -->
-<script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
-<script src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
+	<!-- this links the jquery js to the html document  -->
+	<script src = "js/jquery-3.2.1.min.js" > </script>
+
+	<!-- this links the scrollmagic js to the html document  -->
+	<script src="js/scrollmagic/uncompressed/ScrollMagic.js"> </script>
+	<script src="js/scrollmagic/minified/ScrollMagic.min.js"> </script>
 
 </head>
 
@@ -49,14 +52,46 @@
 	<h1> HOMELESS VETERAN PROTEST </h1>
 	<h2>  <a href="http://www.raminmazur.com/"> BY RAMIN MAZUR </a> </h2>
 
-		<p>  
-			<div id="firstscroll">
-				Ramin told us this story of a veteran of the Transnistrian war on the Moldovan side. The man suffered an injury but remained until the end of the conflict. After returning home, his injury persisted to cause problems until the point he had to seek treatment. Upon his arrival back to Causeni, he was confronted with a house left in ruins, demolished by the government. After several attempts to talk to the local authorities he came to the central square in Chisinau, Moldova, and built a hut from scraps and started his protest asking for house. He is now seven years into his protest.
-			</div>
 
-			<img src="images/1-raminmazur.jpg" name:"raminmazur" title="raminmazur">
+			<section class="panel first">
+			<div id="firstscroll" class="container">
+				<img src="images/1-raminmazur.jpg" name:"raminmazur1" title="raminmazur" style="width: 100%; height: 100%; position: relative;"> <div class="centered"> <i> Ramin told us this story of a veteran of the Transnistrian war on the Moldovan side. The man suffered an injury but remained until the end of the conflict. After returning home, his injury persisted to cause problems until the point he had to seek treatment. Upon his arrival back to Causeni, he was confronted with a house left in ruins, demolished by the government. After several attempts to talk to the local authorities he came to the central square in Chisinau, Moldova, and built a hut from scraps and started his protest asking for house. He is now seven years into his protest. </i> </div>
+			</div>
+		</section>
+
+		<section class="panel second">
+			<div id="secondscroll" class="container">
+				<img src="images/2-raminmazur.jpg" name:"raminmazur2" title="raminmazur2" style="width: 100%; height: 100%; position: relative;"> <div class="centered"> <i> "My name is Tudor Pinzari and I grew up in an orphanage in Benderi, Moldova. I once heard the first Moldavian president Mircea Snegur urge people on the radio to defend the motherland and be a volunteer in the Transnistrian conflict." </i> </div>
+			</div>
+		</section>
+
+		<section class="panel third">
+		</section>
+
+		<section class="panel fourth">
+		</section>
 		
-		</p>
+<script type="text/javascript">
+	$(function(){ 
+		var controller = new ScrollMagic.controller({ 
+			globalSceneOptions: {
+				triggerHook: 'onleave'
+			}
+		});
+
+	var slides = document.querySelectorAll("section.panel")
+
+	for (var i=0; i<slides.length; i++) {
+	new ScrollMagic.Scene ({
+		triggerElement: slides[i]
+		})	
+		.setPin(slides[i])
+		.addIndicators()
+		.addTo(controller); 
+		}
+	});
+
+</script>
 
 </body>
 

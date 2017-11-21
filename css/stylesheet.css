@@ -5,7 +5,7 @@ body {
 
 #nav {
 	width: 100%;
-	float: left;
+	float: center;
 	margin: 0 0 1em 0;
 	padding: 0;
 }
@@ -21,15 +21,9 @@ body {
 	float: left; 
 }
 
-#nav li a {
-	padding: 8px 15px;
+#nav li a {padding: 8px 15px;
 	text-decoration: none;
 	color: black;
-}
-
-#nav li a:hover {
-	color: #c00;
-	background-color: #fff; 
 }
 
 #navleft li {
@@ -54,22 +48,38 @@ header {
 
 h1 {
     text-align: center; 
-    color: blue; 
-    color: navy;
+    color: black; 
     margin-left: 20px;
     padding-top: 100px;
 }
 
 h2 {
 	text-align: center; 
-    color: blue;
+    color: grey;
 }
 
-p {
-	text-align: center; 
-    color: black; 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-#firstscroll {
+/* Centered text in container */
+.centered {
+    position: absolute;
+    text-align: center; 
+    color: white;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
 
+.panel {
+	height: 100%;
+	width: 100%
+}
+
+.panel.first {
+	margin-bottom: 400px;
 }
