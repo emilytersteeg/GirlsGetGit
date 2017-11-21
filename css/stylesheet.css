@@ -1,17 +1,55 @@
 
 body {
-    background-color: black;
+    background-color: white;
+}
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+#nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; 
+}
+
+#nav li {
+	float: left; 
+}
+
+#nav li a {
+	padding: 8px 15px;
+	text-decoration: none;
+	color: black;
+}
+
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; 
+}
+
+#navleft li {
+	float: left;
+}
+
+#navmiddle li {
+	float: center;
+}
+
+#navright li {
+	float: right;
 }
 
 header {
+  	padding-top: 100px;
   	text-align: center;
   	background: url("#");
   	background-size: cover;
- 	color: white;
-}
-
-#logo img[src="images/logo.jpg"] {
-	max-width: 50%;
+ 	color: black;
 }
 
 h1 {
@@ -19,6 +57,17 @@ h1 {
     color: blue; 
     color: navy;
     margin-left: 20px;
+    padding-top: 100px;
+}
+
+h2 {
+	text-align: center; 
+    color: blue;
+}
+
+p {
+	text-align: center; 
+    color: black; 
 }
 
 #firstscroll {
