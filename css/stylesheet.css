@@ -1,21 +1,26 @@
-<style type="text/css">
-    header {
-      text-align: center;
-      background: url("#");
-      background-size: cover;
-      color: white;
-    }
-    a {
-      color: white; 
-    }
-    body {
-      background: black;
-      background-size: cover;
 
-    }
-    h1 {
-      text-align: center; 
-      color: blue; 
-    }
-  </style>
-  
+body {
+    background-color: black;
+}
+
+header {
+  	text-align: center;
+  	background: url("#");
+  	background-size: cover;
+ 	color: white;
+}
+
+#logo img[src="images/logo.jpg"] {
+	max-width: 50%;
+}
+
+h1 {
+    text-align: center; 
+    color: blue; 
+    color: navy;
+    margin-left: 20px;
+}
+
+#firstscroll {
+
+}
