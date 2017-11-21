@@ -1,0 +1,21 @@
+<style type="text/css">
+    header {
+      text-align: center;
+      background: url("#");
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white; 
+    }
+    body {
+      background: black;
+      background-size: cover;
+
+    }
+    h1 {
+      text-align: center; 
+      color: blue; 
+    }
+  </style>
+  
