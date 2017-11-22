@@ -1,49 +1,47 @@
-
 body {
     background-color: white;
 }
 
+header {
+    padding-top: 50px;
+    text-align: center;
+  color: black;
+}
+
 #nav {
-	width: 100%;
-	float: center;
-	margin: 0 0 1em 0;
-	padding: 0;
+  width: 100%;
+  float: center;
+  margin: 0 0 1em 0;
+  padding: 0;
 }
 
 #nav ul {
-	list-style: none;
-	width: 800px;
-	margin: 0 auto;
-	padding: 0; 
+  list-style: none;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0; 
 }
 
 #nav li {
-	float: left; 
+  float: left; 
 }
 
 #nav li a {padding: 8px 15px;
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 #navleft li {
-	float: left;
+  float: left;
 }
 
 #navmiddle li {
-	float: center;
+  float: center;
+  margin-left: 150px;
 }
 
 #navright li {
-	float: right;
-}
-
-header {
-  	padding-top: 100px;
-  	text-align: center;
-  	background: url("#");
-  	background-size: cover;
- 	color: black;
+  float: right;
 }
 
 h1 {
@@ -54,7 +52,7 @@ h1 {
 }
 
 h2 {
-	text-align: center; 
+  text-align: center; 
     color: grey;
 }
 
@@ -76,10 +74,10 @@ h2 {
 }
 
 .panel {
-	height: 100%;
-	width: 100%
+  height: 100%;
+  width: 100%
 }
 
 .panel.first {
-	margin-bottom: 400px;
+  margin-bottom: 400px;
 }
