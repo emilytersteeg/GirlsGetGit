@@ -79,38 +79,39 @@ section {
 }
 
 .image_text {
-    font-size: 35px;
     text-align: center; 
     color: black;  
     position: absolute;
     padding: 30px;
-    background: rgba(255, 255, 255, 0.6);
-    width: 50%;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 #section_2 .image_text {
-    top: 80%;
-    left: 40%;
-}
-
-#section_3 .image_text  {
-    top: 80%;
-    left: 40%;
+    font-size: 30px;
+    top: 5%;
+    left: 10%;
+    width: 60%;
 }
 
 #section_4 .image_text  {
-    top: 20%;
-    left: 40%;
+    font-size: 30px;
+    top: 25%;
+    left: 1%;
+    width: 30%;
 }
 
 #section_5 .image_text  {
-    top: 80%;
-    left: 40%;
+    font-size: 35px;
+    top: 5%;
+    left: 30%;
+    width: 40%
 }
 
 #section_6 .image_text  {
-    top: 80%;
-    left: 40%;
+    font-size: 35px;
+    top: 5%;
+    left: 10%;
+    width: 70%;
 } 
 
 .panel {
