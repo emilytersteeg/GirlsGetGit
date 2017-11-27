@@ -74,64 +74,44 @@ p {
 
 /* Centered text in container */
 
+section {
+  position: relative;
+}
+
 .image_text {
     font-size: 35px;
     text-align: center; 
     color: black;  
+    position: absolute;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 50%;
 }
 
 #section_2 .image_text {
-    position: relative;
-    top: 8px;
     top: 80%;
     left: 40%;
-    transform: translate(-40%, -40%);
 }
 
 #section_3 .image_text  {
-    font-size: 35px;
-    position: relative;
-    top: 8px;
-    text-align: center; 
-    color: black;
     top: 80%;
     left: 40%;
-    transform: translate(-40%, -40%);
 }
 
-.image4 {
-    font-size: 35px;
-    position: relative;
-    top: 8px;
-    text-align: center; 
-    color: black;
+#section_4 .image_text  {
     top: 20%;
     left: 40%;
-    transform: translate(-40%, -40%);
 }
 
-.image5 {
-    font-size: 35px;
-    position: relative;
-    top: 8px;
-    text-align: center; 
-    color: black;
+#section_5 .image_text  {
     top: 80%;
     left: 40%;
-    transform: translate(-40%, -40%);
 }
 
-
-.image7 {
-    font-size: 35px;
-    position: relative;
-    top: 8px;
-    text-align: center; 
-    color: black;
+#section_6 .image_text  {
     top: 80%;
     left: 40%;
-    transform: translate(-40%, -40%);
-    }
+} 
 
 .panel {
   height: 100%;
