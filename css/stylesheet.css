@@ -74,18 +74,21 @@ p {
 
 /* Centered text in container */
 
-.image2 {
+.image_text {
     font-size: 35px;
+    text-align: center; 
+    color: black;  
+}
+
+#section_2 .image_text {
     position: absolute;
     top: 8px;
-    text-align: center; 
-    color: black;
     top: 80%;
     left: 40%;
     transform: translate(-40%, -40%);
 }
 
-.image3 {
+#section_3 .image_text  {
     font-size: 35px;
     position: relative;
     top: 8px;
