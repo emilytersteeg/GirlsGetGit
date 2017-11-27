@@ -81,7 +81,7 @@ p {
 }
 
 #section_2 .image_text {
-    position: absolute;
+    position: relative;
     top: 8px;
     top: 80%;
     left: 40%;
