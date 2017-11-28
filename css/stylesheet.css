@@ -119,6 +119,13 @@ section {
     width: 70%;
 } 
 
+#section_7 .image_text  {
+    font-size: 35px;
+    top: 10%;
+    left: 5%;
+    width: 80%;
+} 
+
 .panel {
   height: 100%;
   width: 100%;
