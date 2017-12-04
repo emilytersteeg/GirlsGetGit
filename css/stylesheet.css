@@ -6,7 +6,7 @@ header {
     padding-top: 50px;
     text-align: center;
     color: black;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 /* navigation bar */
@@ -89,6 +89,10 @@ section {
     color: black;  
     position: absolute;
     background: rgba(255, 255, 255, 0.3);
+}
+
+#section_1 {
+  text-align: center;
 }
 
 #section_2 .image_text {
