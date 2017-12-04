@@ -47,16 +47,19 @@ header {
   color: black;
 }
 
-#navleft li {
+.navleft li {
   float: left;
 }
 
-#navmiddle li {
+.navmiddle li {
   float: center;
+  text-align: center;
   margin-left: 150px;
+  margin-right: 50px;
+  padding-right: 60px;
 }
 
-#navright li {
+.navright li {
   float: right;
 }
 
@@ -157,12 +160,24 @@ section {
     padding-top: 10px;
     padding-bottom: 5px;
 }
-  #nav li {
+  #nav .navleft {
+display: none;
+  }
+
+#nav .navmiddle {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: center; 
+
+}
+
+#nav .navright {
 display: none;
   }
 
   h1 {
-    margin-left: 20px;
+    text-align: center; 
+    margin-top: 20px;
     padding-top: 20px;
     font-size: 20px;
 } 
