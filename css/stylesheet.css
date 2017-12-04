@@ -144,9 +144,8 @@ section {
     padding-top: 10px;
     padding-bottom: 5px;
 }
-  #nav img {
-  float: center;
-  position: absolute;
+  #nav li {
+display: none;
   }
 
   h1 {
@@ -162,42 +161,47 @@ section {
   margin-left: 20px;
 }
 
-  #section_1 img {display: none;}
-
-
-  #section_2 .image_text {
-    font-size: 12px;
-    top: 10%;
-    left: 10%;
-    width: 60%;
+section {
+  position: relative;
 }
 
-  #section_4 .image_text  {
+ #section_1 img {display: none;}
+
+.image_text {
     font-size: 12px;
-    top: 25%;
+}
+
+ #section_2 .image_text {
+    font-size: 15px;
+    width: 90%;
+}
+
+#section_4 .image_text  {
+    font-size: 15px;
+    top: 5%;
     left: 1%;
-    width: 30%;
+    width: 40%;
 }
 
-  #section_5 .image_text  {
-    font-size: 12px;
-    top: 8%;
-    left: 30%;
-    width: 60%;
-}
-
-  #section_6 .image_text  {
-    font-size: 12px;
+#section_5 .image_text  {
+    font-size: 15px;
     top: 8%;
     left: 10%;
-    width: 70%;
+    width: 90%;
+}
+
+#section_6 .image_text  {
+    font-size: 15px;
+    top: 8%;
+    left: 10%;
+    width: 90%;
 } 
 
-  #section_7 .image_text  {
-    font-size: 12px;
+#section_7 .image_text  {
+    font-size: 15px;
     top: 10%;
     left: 5%;
-    width: 80%;
+    width: 90%;
 } 
 
 }
