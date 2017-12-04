@@ -156,24 +156,24 @@ section {
 }
 
 @media (max-width: 500px) {
+  
   header {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+ 
   #nav .navleft {
 display: none;
-  }
+}
 
 #nav .navmiddle {
   margin-bottom: 10px;
   padding-bottom: 10px;
-  text-align: center; 
-
 }
 
 #nav .navright {
 display: none;
-  }
+}
 
   h1 {
     text-align: center; 
